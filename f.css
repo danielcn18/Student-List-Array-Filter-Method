@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(159, 182, 194);
+}
+body{
+    padding-bottom: 8vh;
+}
+.heading{
+    height: 10vh;
+    width: 100%;
+    padding-top: 7vh;
+    text-align: center;
+    font-size: 2.2vw;
+    margin-bottom: 4vh;
+    background-color: rgb(87, 127, 160);
+    color: white;
+}
+.container{
+    height: auto;
+    width: 70%;
+    margin: 0vh 15% 0 15%;
+    background-color: rgb(87, 127, 160);
+    color: white;
+    font-size: 1.5vw;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 1vh 0 0 0;
+}
+.filter-by{
+    height: auto;
+    width: 100%;    
+    margin: 2vh 0;
+    background-color: rgb(87, 127, 160);
+    font-size: 1.7vw;
+    color: white;
+}
+select{
+    background-color: white;
+    font-size: 1.1vw;
+    margin-left: 1%;
+}
+option{
+    background-color: white;
+}
+.box{
+    height: 10vh;
+    width: 50%;
+    margin: 0 25% 2vh 25%;
+    text-align: center;
+    font-size: 1.7vw;
+    color: white;
+    background-color: rgb(87, 127, 160);
+    border: 2px solid white;
+    display: flex;
+}
+.box-inner1, .box-inner2, .box-inner3{
+    height: auto;
+    width: 25%;
+    margin: 0 4%;
+    text-align: center;
+    padding: 3vh 0 0 0;
+    background-color: rgb(87, 127, 160);
+}
